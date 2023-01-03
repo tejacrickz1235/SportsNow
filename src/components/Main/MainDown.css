@@ -1,0 +1,110 @@
+
+.header-line
+{
+    color: white;
+    margin: 140px 20px 40px 245px;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.price_div
+{
+    padding:20px 0px 20px 75px ;
+}
+.priceSpan
+{
+   color:white;
+   font-size: 18px;
+   font-weight: 600;
+   font-style: normal;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flexbox-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 238px;
+
+}
+.head
+{
+    text-decoration:none;
+    border-color:none;
+}
+.linkdiv
+{
+    width:60%;
+    height:50px;
+    background-color: yellow;
+    padding:10px 30px 10px 30px;
+    text-decoration:none;
+    border-color:none;
+}
+.linkdiv1
+{
+    width:60%;
+    height:50px;
+    background-color: yellow;
+    padding:10px 20px 10px 55px
+}
+.spaninbutton{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+    border-color:none ;
+}
+.spaninspaninbutton
+{
+    font-weight: bold;
+    
+    font-size: 12px;
+    color:black;
+    text-decoration: none;
+    border-color:none ;
+}
+.flexbox-item{
+    width: 580px;
+    margin: 10px;
+   
+    background-color: white;
+    list-style: none;
+    min-height: 220px;
+    background-color: rgba(63,83,104,.8);
+}
+
+.head
+{
+    margin: 20px 20px 30px 77px;
+}
+.body
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.xxx
+{
+    position: relative;
+}
+.tick-logo
+{
+    width: 3%;
+    height: 10%;
+}
+.spanformat
+{
+    margin-left: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.list-item
+{
+    padding-bottom: 6px;
+}

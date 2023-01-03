@@ -1,0 +1,75 @@
+.signupcss{
+    height: fit-content;
+    background-color: rgba(63,83,104,.8);
+    width: 35%;
+    margin: 35px auto 70px auto;
+    border-radius: 15px;
+}
+.headingformatinsform{
+    font-size: 35px;
+    color: white;
+    font-weight: 400;
+}
+
+.divinsform{
+    padding-left: 10%;
+    padding-bottom: 7px;
+}
+.divbuttonsform{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 15px;
+}
+.signupheading
+{
+    font-size: 30px;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-weight: bold;
+}
+.spanformatinsignup{
+    font-style: italic;
+    color: rgba(255, 255, 255,0.8);
+
+}
+.signupatag{cursor: pointer;}
+.inputclassinsignup
+{
+    border-color: yellow;
+    width: 347px;
+    height: 28px;
+}
+.buttonformatinform{
+    width:40%;
+    height: 40px;
+    background-color: yellow;
+
+}
+.spaninsform{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+.signupfooterfirst
+{
+    display: flex;
+    padding-left: 10%;
+}
+.signupfooterfirstspan{
+    color: white;
+    font-size: 12px;
+
+}
+.sigupatag{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.signupfooterlast{
+    display: flex;
+    padding-left: 10%;
+}
+.signupfooterlastspan{
+    color: white;
+    font-size: 13px;
+}

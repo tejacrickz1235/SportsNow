@@ -1,0 +1,112 @@
+.Notify{
+    padding:30px 25px 0px 25px;
+}
+
+.notifyBar{
+    height: 5rem;
+}
+.bar1{
+    display: flex;
+
+    justify-content: space-between;
+}
+.bar1>div>span{
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+.bar1>div>a{
+    text-decoration: none;
+}
+.bar1>div>a>span{
+    background-color:rgba(172, 166, 166,0.5);
+    padding:7px;
+    border-radius: 15px;
+    color:black;
+    font-size: 13px;
+    font-weight: 500;
+   
+}
+.bar2>span{
+    color:rgba(0,0,0,0.5)
+}
+.Notifications{
+    display: flex;
+
+    flex-direction: column;
+    gap:10px;
+}
+.parentContainer{
+    width:100%;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 10px;
+    
+}
+.reverse, .reverse>* {
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+  }
+.NotificationCard{
+    min-height: 5rem;
+    color:black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+.NotificationCard-message{
+    display:flex;
+    width:80%;
+    flex-direction:row;
+    gap:0.5rem;
+}
+.NotificationCard-message>img{
+    max-width:50px;
+    max-height:50px;
+    flex-grow: inherit;
+    border-radius: 5px;
+}
+.NotificationCard-message>div{
+    display:flex;
+    flex-direction:column;
+    gap:0.2rem;
+}
+.NotificationCard>div>div{
+    justify-content: center;
+}
+.span1
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+.span2{
+    font-size:12px;
+    color:rgba(0,0,0,0.5);
+}
+.span3{
+    font-size: 12px;
+    color:rgba(0,0,0,0.5);
+    font-weight: 500;
+}
+
+.NotificationCard-review{
+    justify-content: center;
+}
+.NotificationCard-review>a{
+    text-decoration: none;
+}
+.NotificationCard-review>a>span{
+    background-color:rgba(172, 166, 166,0.5);
+    padding:10px;
+    border-radius: 18px;
+    color:black;
+    font-size: 13px;
+    font-weight: 500;
+}
+

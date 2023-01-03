@@ -1,0 +1,75 @@
+.logincss{
+    height: 450px;
+    background-color: rgba(63,83,104,.8);
+    width: 35%;
+    margin: 35px auto 70px auto;
+    border-radius: 15px;
+}
+.headingformatinlform{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+.loginform{
+
+}
+.divinlform{
+    padding-left: 10%;
+    padding-bottom: 7px;
+}
+.divbuttonlform{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 15px;
+}
+.loginheading
+{
+    font-size: 35px;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-weight: bold;
+}
+.spanformatinlogin{
+    font-style: italic;
+    color: white;
+
+}
+.inputclassinlogin
+{
+    border-color: yellow;
+    width: 350px;
+    height: 28px;
+}
+.buttonformatinform{
+    width:40%;
+    height: 40px;
+    background-color: yellow;
+
+}
+.spaninlform{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+.loginfooterfirst
+{
+    display: flex;
+    padding-left: 10%;
+}
+.loginfooterfirstspan{
+    color: white;
+    font-size: 12px;
+
+}
+.loginatag{
+    text-decoration: none;
+    cursor: pointer;
+}
+.loginfooterlast{
+    display: flex;
+    padding-left: 10%;
+}
+.loginfooterlastspan{
+    color: white;
+    font-size: 13px;
+}

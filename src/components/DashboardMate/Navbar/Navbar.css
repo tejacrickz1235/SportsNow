@@ -1,0 +1,141 @@
+*
+{
+    box-sizing: border-box;
+}
+.Navbar{
+    width:auto;
+    height: 65px;
+    background-color: white;
+    position: relative;
+}
+
+.Navhead{
+
+    display: grid;
+    grid-template-columns: 10% auto 1% 20%;
+    padding:7px;
+
+}
+.Nav1>span{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(22, 28, 72);
+}
+.logo
+{
+    height: 20px;
+    width:20px;
+    border-radius: 10px;
+}
+.Navhead>*{
+    padding: 13px;
+}
+.Nav2
+{
+    align-items: stretch;
+    display: inline-flex;
+    justify-content: flex-end;
+    gap: 0.7rem;
+    padding-right: 10px;
+    
+}
+.padder123{
+    padding-top: 2px;
+}
+.svgs{
+    width: 20px;
+    height: 20px;
+    
+}
+.link{
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    padding:0px 7px;
+}
+.Nav2>a>span{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.Nav3
+{
+    align-items: stretch;
+    display: inline-flex;
+    justify-content: center;
+    gap: 0.9rem;
+}
+
+.line
+{
+    background-color: rgba(0,0,0,0.2);
+    height: 28px;
+    width: 1.5px;
+    margin-top: 13px;
+    padding: 0px;
+}
+.extra-padding-less{
+    padding:0px;
+}
+@media screen and (max-width: 800px) {
+    .Nav3
+    {
+        align-items: stretch;
+        display: inline-flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .Nav3
+    {
+        align-items: stretch;
+        display: inline-flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    .Nav3>span{
+        display: none;
+    }
+    .css-400-log-out{
+        display: none;
+    }
+    
+  }
+
+  @media screen and (max-width: 400px) {
+    .Nav3
+    {
+        align-items: stretch;
+        display: inline-flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    .Nav3>span{
+        display: none;
+    }
+    .link{
+        display: none;
+    }
+    .css-400-log-out{
+        display: none;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .Nav3
+    {
+        align-items: stretch;
+        display: inline-flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    .Nav3>span{
+        display: none;
+    }
+    .link{
+        display: none;
+    }
+    .css-400-log-out,.css-300-gone{
+        display: none;
+    }
+    
+  }

@@ -1,0 +1,100 @@
+.container{
+    background-color: rgba(63,83,104,.8);
+    height: 100%;
+}
+.headingincontainer
+{
+    margin:0px 250px auto 250px;
+    background-color: black;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.padding
+{
+    padding-bottom:5px;
+}
+.padding-top10
+{
+    padding-top:10px;
+}
+.padding-top15
+{
+    padding-top:15px;
+}
+.headingline1
+{
+    font-size: 50px;
+    color:white;
+    padding-left: 6%;
+}
+.headingline2
+{
+    font-size: 15px;
+    color: white;
+    padding-left: 6%;
+}
+.formcss{
+    margin:0px 250px 0px 250px;
+    background-color: rgba(0,0,0,.4);
+}
+.spanformatform{
+    font-style: italic;
+    color: white;
+}
+.divinform{
+    padding-left: 6%;
+}
+.buttoninform{
+    padding-left: 6%;
+}
+.footerincontainer
+{
+    margin: -12px 250px auto 250px;
+    color: white;
+    background-color: black;
+    
+}
+.footerline1{
+    padding-left: 6%;
+    font-size: 12px;
+}
+.footerline2
+{
+    font-size: 12px;
+    padding-left: 6%;
+    display: flex;
+    
+}
+
+.inputclass{
+    height: 18px;
+    width: 500px;    
+    border-color: yellow;
+}
+
+input[type="textarea"]{
+    width:500px;
+    height:50px;
+    border-color: yellow;
+}
+.buttonformat{
+    background-color: yellow;
+    color:white;
+    width:100px;
+    height:35px;
+}
+.spanbuttonform{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+.atag
+{
+    text-decoration: none;
+    color: yellow;
+}
+.padding-bottom80
+{
+    padding-bottom:80px;
+}

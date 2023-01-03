@@ -1,0 +1,22 @@
+.outline
+{
+    background-color: white;
+    width:50%;
+    height:20rem;
+
+    box-shadow: 0 0.4rem 0.8rem 0 rgb(23 40 52 / 8%);
+    border-radius: 6px;
+    padding: 30px 0px 20px 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+.out{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}

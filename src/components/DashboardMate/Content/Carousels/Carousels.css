@@ -1,0 +1,57 @@
+.carouselPart
+{
+    height: 6rem !important;
+}
+.card1
+{
+    display:flex;
+    gap: 30rem;
+    
+}
+.card2
+{
+    display:flex;
+    gap: 27rem;
+    
+}
+.card3
+{
+    display:flex;
+    gap: 24rem;
+}
+.card4
+{
+    display: flex;
+    gap:30rem;
+}
+.capital
+{
+    font-size:65px;
+    color:rgba(255,255,255,0.9);
+    padding-bottom: 8px;
+}
+.text1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text2
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 16px;
+}
+.rest
+{
+    font-size:25px;
+    color:rgba(255,255,255,0.8);
+    padding-top: 23px;
+}
+.infoSpan1
+{
+    font-size:15px;
+    color: white;
+}
