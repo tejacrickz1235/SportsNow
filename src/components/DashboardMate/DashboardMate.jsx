@@ -121,7 +121,7 @@ const DashboardMate = () => {
           <Navbar/>
           {(() => {
 
-            if(PATH === "/SportsNow/Mate") {
+            if(PATH === "SportsNow/Mate") {
               return (
                 <Content1 setPATH={setPATH} detailedEvent={detailedEvent}/>
               )
@@ -200,7 +200,7 @@ const DashboardMate = () => {
             }
             else {
               return (
-                <Content1 setPATH={setPATH} detailedEvent={detailedEvent}/>
+                <h3>err</h3>
               )
             }
           })()}
