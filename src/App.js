@@ -18,7 +18,7 @@ function App() {
   const path = window.location.pathname; 
   console.log(path)
   return (
-    <BrowserRouter > 
+    <BrowserRouter basename='/SportsNow'> 
         
         
       <Routes>
