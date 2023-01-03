@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/SportsNow/static/css/main.f6d635cc.css",
-    "main.js": "/github.io/SportsNow/static/js/main.6606c40c.js",
-    "static/js/787.6e1697bb.chunk.js": "/github.io/SportsNow/static/js/787.6e1697bb.chunk.js",
-    "index.html": "/github.io/SportsNow/index.html",
-    "main.f6d635cc.css.map": "/github.io/SportsNow/static/css/main.f6d635cc.css.map",
-    "main.6606c40c.js.map": "/github.io/SportsNow/static/js/main.6606c40c.js.map",
-    "787.6e1697bb.chunk.js.map": "/github.io/SportsNow/static/js/787.6e1697bb.chunk.js.map"
+    "main.css": "/SportsNow/static/css/main.f6d635cc.css",
+    "main.js": "/SportsNow/static/js/main.febe1204.js",
+    "static/js/787.6e1697bb.chunk.js": "/SportsNow/static/js/787.6e1697bb.chunk.js",
+    "index.html": "/SportsNow/index.html",
+    "main.f6d635cc.css.map": "/SportsNow/static/css/main.f6d635cc.css.map",
+    "main.febe1204.js.map": "/SportsNow/static/js/main.febe1204.js.map",
+    "787.6e1697bb.chunk.js.map": "/SportsNow/static/js/787.6e1697bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d635cc.css",
-    "static/js/main.6606c40c.js"
+    "static/js/main.febe1204.js"
   ]
 }
