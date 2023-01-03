@@ -6,7 +6,7 @@ import Mate from './components/Mate/Mate.js'
 
 import Main from './components/Main/Main.js'
 import MainDown from './components/Main/MainDown';
-import DashboardMate from './components/DashboardMate/DashboardMate.jsx'
+import DashboardMate from './components/DashboardMate/DashboardMate'
 import EventDetail from './components/DashboardMate/MyEvents/EventDetail';
 import SignupPage from './components/AuthMate/SignupPage/SignupPage';
 import LoginPage from './components/AuthMate/LoginPage/LoginPage';
@@ -18,14 +18,14 @@ function App() {
   const path = window.location.pathname; 
   console.log(path)
   return (
-    <BrowserRouter basename='/SportsNow'> 
+    <BrowserRouter> 
         
         
       <Routes>
         <Route path='/' element={<MainDown/>}/>
         <Route path='/signupMate' element={<SignupPage/>}/>
         <Route path='/loginMate' element={<LoginPage/>}/>
-        <Route path='/Mate/*' element={<Mate />}/>
+        <Route path='/Mate/*' element={<DashboardMate />}/>
         <Route path='/construction' element={<Construction/>}/>
       </Routes>
       

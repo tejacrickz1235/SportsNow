@@ -74,7 +74,10 @@ const DashboardMate = () => {
     setdetailEvent(event);
   }
   useEffect(()=>{
-    setPATH(window.location.pathname);
+    const c= window.location.pathname;
+    
+    setPATH(c);
+    console.log(PATH)
   },[PATH])
 
   const onClick = (e) =>
@@ -121,14 +124,14 @@ const DashboardMate = () => {
           <Navbar/>
           {(() => {
 
-            if(PATH === "SportsNow/Mate") {
+            if(PATH === "/Mate") {
               return (
                 <Content1 setPATH={setPATH} detailedEvent={detailedEvent}/>
               )
               }
 
             else if(PATH === "/Mate/Host") {
-              
+              console.log('HOST')
               return (
                 
                   <Host />
