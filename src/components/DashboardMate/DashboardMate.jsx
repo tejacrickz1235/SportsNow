@@ -199,7 +199,9 @@ const DashboardMate = () => {
               )
             }
             else {
-              return <h1>error</h1>
+              return (
+                <Content1 setPATH={setPATH} detailedEvent={detailedEvent}/>
+              )
             }
           })()}
           
