@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SportsNow/static/css/main.f6d635cc.css",
-    "main.js": "/SportsNow/static/js/main.076247ec.js",
+    "main.js": "/SportsNow/static/js/main.83861143.js",
     "static/js/787.6e1697bb.chunk.js": "/SportsNow/static/js/787.6e1697bb.chunk.js",
     "index.html": "/SportsNow/index.html",
     "main.f6d635cc.css.map": "/SportsNow/static/css/main.f6d635cc.css.map",
-    "main.076247ec.js.map": "/SportsNow/static/js/main.076247ec.js.map",
+    "main.83861143.js.map": "/SportsNow/static/js/main.83861143.js.map",
     "787.6e1697bb.chunk.js.map": "/SportsNow/static/js/787.6e1697bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6d635cc.css",
-    "static/js/main.076247ec.js"
+    "static/js/main.83861143.js"
   ]
 }
